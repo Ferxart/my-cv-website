@@ -1,0 +1,90 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #12345a;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+header h3 {
+    font-size: 15px;
+    font-weight: normal;
+    margin: 5px;
+}
+
+/* Main content */
+main {
+    max-width: 850px;
+    margin: 25px auto;
+    padding: 0 15px;
+}
+
+/* Individual sections */
+section {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 5px solid #167d9a;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* Section headings */
+section h2 {
+    color: #12345a;
+    border-bottom: 2px solid #167d9a;
+    padding-bottom: 8px;
+}
+
+/* Lists */
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #12345a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Mobile phone responsiveness */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 25px;
+    }
+
+    header h3 {
+        font-size: 13px;
+        overflow-wrap: anywhere;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    main {
+        padding: 0 10px;
+    }
+}
